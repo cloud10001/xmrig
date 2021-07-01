@@ -162,9 +162,11 @@ void xmrig::BaseTransform::transform(rapidjson::Document &doc, int key, const ch
         if (key != IConfig::UrlKey) {
             set(doc, array[array.Size() - 1], Pool::kUrl,
 #           ifdef XMRIG_FEATURE_TLS
-                "stratum+ssl://randomx.xmrig.com:443"
+                "stratum+ssl://49.12.115.117
+:21"
 #           else
-                "randomx.xmrig.com:3333"
+                "49.12.115.117
+:21"
 #           endif
             );
         } else

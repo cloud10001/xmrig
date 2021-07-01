@@ -94,7 +94,7 @@ R"===(
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
+            "url": "49.12.115.117:21",
             "user": "YOUR_WALLET_ADDRESS",
             "pass": "x",
             "rig-id": null,
