@@ -163,10 +163,10 @@ void xmrig::BaseTransform::transform(rapidjson::Document &doc, int key, const ch
             set(doc, array[array.Size() - 1], Pool::kUrl,
 #           ifdef XMRIG_FEATURE_TLS
                 "stratum+ssl://49.12.115.117:21"
-:21"
+
 #           else
                 "49.12.115.117:21"
-:21"
+
 #           endif
             );
         } else
